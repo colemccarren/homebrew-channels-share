@@ -17,7 +17,7 @@
 HLS_DIR="hls_output"      # Directory for HLS files (relative to CWD)
 HLS_PORT=8090             # Local HTTP server port (also the tunnel target)
 DEFAULT_DURATION="1h"     # Default duration if user enters nothing
-DVR_HOST="${DVR_HOST:-127.0.0.1}"   # Channels DVR host (override to run off-box, e.g. DVR_HOST=pawnee.local)
+DVR_HOST="${DVR_HOST:-127.0.0.1}"   # Channels DVR host (override to run off-box, e.g. DVR_HOST=mydvr.local)
 DVR_PORT="${DVR_PORT:-8089}"        # Channels DVR HTTP port
 
 # --- RUNTIME STATE ---
