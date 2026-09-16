@@ -3,7 +3,7 @@ class ChannelsShare < Formula
   homepage "https://github.com/colemccarren/homebrew-channels-share"
   url "https://github.com/colemccarren/homebrew-channels-share/archive/refs/tags/v0.3.tar.gz"
   version "0.3"
-  sha256 "PENDING"
+  sha256 "f73c6e329a0f90b134fda9ceaffc00be2590aaf493e80de09181ade3b671a8b4"
   license "MIT"
 
   depends_on "bash"
