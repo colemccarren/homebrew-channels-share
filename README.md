@@ -34,6 +34,14 @@ It:
 ## Install
 
 ```bash
+brew tap colemccarren/channels-share
+brew install channels-share
+```
+
+After tapping once, the bare name works for everything (`brew upgrade channels-share`, etc.).
+You can also do it in one line without tapping first:
+
+```bash
 brew install colemccarren/channels-share/channels-share
 ```
 
@@ -43,7 +51,7 @@ If you're on an older machine and Homebrew can't install `ffmpeg` properly:
 2. Install without dependencies:
 
 ```bash
-brew install --ignore-dependencies colemccarren/channels-share/channels-share
+brew install --ignore-dependencies channels-share
 ```
 
 ## How external access works
