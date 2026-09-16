@@ -60,7 +60,7 @@ The script probes the source, starts `ffmpeg` and a small HTTP server, opens the
 tunnel, and prints a single link to share:
 
 ```
-     https://random-words-here.trycloudflare.com/ab12cd34ef56.../
+https://random-words-here.trycloudflare.com/ab12cd34ef56.../
 ```
 
 Paste this in a browser and watch your TV! Streaming will stop automatically
